@@ -1,0 +1,43 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 600px;
+}
+
+tbody {
+    display: table;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px rgb(205, 174, 131);
+    text-align: center;
+    height: 6%;
+    width: 5%;
+}
+
+td {
+    border: 1px rgb(205, 174, 131);
+    height: 6%;
+    width: 5%;
+}
+
+td.black {
+    background-color: rgb(182, 150, 106);
+}
+
+td.white {
+    background-color: rgb(228, 198, 157);
+}
+
+th.border {
+    background-color: /* rgba(36, 23, 5, 0.185) */ rgba(51, 51, 51, 0.918);
+    color: rgb(112, 112, 112);
+}
+
+:host {
+    --sds-c-card-color-background: rgba(95, 94, 92, 0.76);
+}
